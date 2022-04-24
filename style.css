@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#222f3e;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    background-color:#58eb34;
+    margin-bottom: 75px;
+ 
+}
+
+.logo {
+    text-align: center;
+    font-size: 72px;
+    
+}
+
+main {
+    width: 1000px;
+    margin:0 auto;
+    
+}
+
+#kafelki {
+    display: flex;
+    flex-direction: column;
+}
+
+.kafelek {
+    flex:0 52%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nazwa {
+    width: 80%;
+}
+.ocena {
+    width: 18%;
+}
+.nazwa, .ocena {
+    border-radius: 15px;
+    padding: 15px;
+    font-size:24px;
+    color: #222f3e;
+    background-color: #c8d6e5;
+    margin-bottom: 15px;
+}
+
+#zmien, #liczbaOcen {
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+    font-size:24px;
+}
+
+#zmianaliczby {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#policz {
+    width: 50%;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px auto;
+    text-align: center;
+    background-color:#58eb34;
+}
+
+#wynik {
+    width: 50%;
+    padding: 15px;
+    font-size: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+/* #58eb34 kolor paska

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator sredniej</title>
+    <link rel="icon" href="favicon.ico" type="image/x/icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo">KALKULATOR ŚREDNIEJ OCEN</h1>
+    </header>
+
+    <main>
+        <div id="kafelki">
+            <div class="kafelek">
+                <input type="text" class="nazwa" id="nazwa1" placeholder="Przedmiot">
+                <input type="number" min="1" max="6" id="oceny1" class="ocena" placeholder="Ocena">
+            </div>
+            <div class="kafelek">
+                <input type="text" class="nazwa" id="nazwa2" placeholder="Przedmiot">
+                <input type="number" min="1" max="6" id="oceny2" class="ocena" placeholder="Ocena">
+            </div>
+        </div>
+        <div id="zmianaliczby">
+            <input type="button" value="Zmień liczbę ocen" id="zmien">
+            <input type="number" id="liczbaOcen" min="2" value="2"> <br>
+            <input type="button" value="Policz" id="policz"> <br>
+            <h2 id="wynik"></h2>
+        </div>
+        
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
